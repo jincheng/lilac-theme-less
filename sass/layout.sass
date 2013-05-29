@@ -1,0 +1,91 @@
+@import base
+@import normalize
+@import markdown
+
+/* --- sticky footer -- */
+
+*
+  margin: 0
+
+html, body
+  height: 100%
+
+.container
+  min-height: 100%
+  height: auto !important
+  margin: 0 auto -142px
+
+.footer, .footer-push
+  height: 142px
+
+/* -- sticky footer end --- */
+
+
+/* fonts */
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300)
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic)
+
+body
+  font: 17px/1.48 'Merriweather', serif
+  background: #fff
+  color: #000
+  font-weight: 300
+
+a:link
+  color: $red
+  text-decoration: none
+
+a:hover
+  color: $red
+  text-decoration: underline
+
+a:visited
+  color: $red
+
+.container
+  width: $width
+
+.content
+  margin-top: 45px
+  text-align: left
+
+.header
+  width: $width
+  margin: 0 auto /* center */
+  text-align: center
+  padding: 55px 0
+
+  h1  /* blog name */
+    a
+      font-size: 35px
+  h2  /* blog description */
+    font-size: 15px
+    font-weight: 200
+    color: #333
+
+  p.nav
+    margin-top: 25px
+    text-align: center
+    color: $gray
+    font-weight: 200
+    a
+      font-weight: 300
+      margin: 0 10px
+
+
+.footer
+  width: $width
+  margin: 0 auto
+  text-align: center
+  font-size: 14px
+  color: #333
+  font-weight: 200
+
+.cut
+  color: #aaa
+  text-align: center
+  letter-spacing: 3px
+  a
+    color: $red
+    letter-spacing: 1px
+    font-size: 13px
