@@ -12,9 +12,9 @@
   <generator>PyAtom</generator>
   <entry xml:base="http://lilac-less.hit9.org/feed.atom">
     <title type="text">Hello World!</title>
-    <id>http://lilac-less.hit9.org/post/sample.html</id>
+    <id>http://lilac-less.hit9.org/post/welcome.html</id>
     <updated>2013-05-29T17:16:00Z</updated>
-    <link href="http://lilac-less.hit9.org/post/sample.html" />
+    <link href="http://lilac-less.hit9.org/post/welcome.html" />
     <author>
       <name>hit9</name>
     </author>
@@ -59,6 +59,28 @@
 &lt;p&gt;Fans of Python use the phrase &amp;ldquo;batteries included&amp;rdquo; to describe the standard library, which covers everything from asynchronous processing to zip files. The language itself is a flexible powerhouse that can handle practically any problem domain. Build your own web server in three lines of code. Build flexible data-driven code using Python&amp;#39;s powerful and dynamic introspection capabilities and advanced language features such as meta-classes, duck typing and decorators.&lt;/p&gt;
 
 &lt;p&gt;Note: all text above comes from &lt;a href="http://www.python.org/about"&gt;http://www.python.org/about&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry xml:base="http://lilac-less.hit9.org/feed.atom">
+    <title type="text">Hello World!</title>
+    <id>http://lilac-less.hit9.org/post/sample.html</id>
+    <updated>2013-05-21T14:30:00Z</updated>
+    <link href="http://lilac-less.hit9.org/post/sample.html" />
+    <author>
+      <name>hit9</name>
+    </author>
+    <content type="html">&lt;p&gt;Thank you for using lilac to write blog!&lt;/p&gt;
+
+&lt;p&gt;This is a sample post.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="cp"&gt;# include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="k"&gt;const&lt;/span&gt; &lt;span class="kt"&gt;char&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;[])&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Any issues? Please go to &lt;a href="https://github.com/hit9/lilac/issues"&gt;https://github.com/hit9/lilac/issues&lt;/a&gt; to let &lt;a href="mailto:nz2324@126.com"&gt;me&lt;/a&gt; know.&lt;/p&gt;
 </content>
   </entry>
 </feed>

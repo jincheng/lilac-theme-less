@@ -1,23 +1,20 @@
 title = "Hello World!"
 
-datetime = "2013-05-29 17:16"
-
-tags = ["sample","github"]
+datetime = "2013-05-21 14:30"
 
 -----
 
-Thank Github!
+Thank you for using lilac to write blog!
 
-Welcome to lilac's theme: less.
+This is a sample post.
 
-It's a clean, light, good-looking theme, with red as its main color.
-
-This is a sample post to show what dose the post look like in theme less.
-
-Here is an example of code highlighting:
-
-```python
-for item in range(10):
-    if item % 2 == 0:
-        print item
+```c
+# include <stdio.h>
+int main(int argc, const char *argv[])
+{
+    printf("Hello world!");
+    return 0;
+}
 ```
+
+Any issues? Please go to https://github.com/hit9/lilac/issues to let [me](mailto:nz2324@126.com) know.
