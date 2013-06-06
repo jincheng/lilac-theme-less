@@ -5,7 +5,7 @@
   <h1 class="name">Tags</h1>
   <p class="tags">
     {% for tag in tags %}
-    <a style="font-size: {{(tag.posts | count) * 100 }}%" href="/tag/{{tag.name}}.html">{{tag.name}}</a>
+    <a style="font-size: {{(tag.posts | count) * 100 }}%" href="{{root_path}}/tag/{{tag.name}}.html">{{tag.name}}</a>
     {% endfor %}
   </p>
 {% endblock %}

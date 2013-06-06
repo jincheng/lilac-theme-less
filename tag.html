@@ -6,7 +6,7 @@
   <ul class="entry-list">
     {% for post in tag.posts %}
     <li>
-      <a href="/post/{{post.name}}.html" class="title">{{post.title}}</a>
+      <a href="{{root_path}}/post/{{post.name}}.html" class="title">{{post.title}}</a>
       <a class="date">{{post.datetime.strftime("%Y-%m-%d")}}</a>
     </li>
     {% endfor %}
