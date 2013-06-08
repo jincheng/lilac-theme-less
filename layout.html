@@ -14,17 +14,17 @@
       <h1><a href="{{root_path}}/">{{ blog.name }}</a></h1> {# blog's Name #}
       <h2>{{ blog.description }}</h2>
       <p class="nav">  {# navigation #}
-        <a href="{{root_path}}/">home</a> |
-        <a href="{{root_path}}/tags.html">tags</a> |
-        <a href="{{root_path}}/archives.html">archives</a> |
-        <a href="{{root_path}}/about.html">about</a> |
-        <a href="{{root_path}}/feed.atom">rss</a> 
+        <a href="{{root_path}}/">Home</a> ~
+        <a href="{{root_path}}/tags.html">Tags</a> ~
+        <a href="{{root_path}}/archives.html">Archives</a> ~
+        <a href="{{root_path}}/about.html">About</a> ~
+        <a href="{{root_path}}/feed.atom">Rss</a> 
       </p>
-      <div class="content">
-        {# this is the man content of some page#}
-        {% block content %}
-        {% endblock %}
-      </div>
+    </div>
+    <div class="content">
+      {# this is the man content of some page#}
+      {% block content %}
+      {% endblock %}
     </div>
     <div class="footer-push">
       {# stiky footer push http://ryanfait.com/sticky-footer/layout.css #}

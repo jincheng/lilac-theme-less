@@ -24,12 +24,16 @@ html, body
 /* fonts */
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300)
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic)
+@import url(http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic)
 
 body
-  font: 17px/1.48 'Merriweather', serif
+  font: 16px/1.48 'Merriweather', serif
   background: #fff
   color: #000
   font-weight: 300
+
+a
+  text-decoration: none
 
 a:link
   color: $red
@@ -46,7 +50,6 @@ a:visited
   width: $width
 
 .content
-  margin-top: 45px
   text-align: left
 
 .header
@@ -64,14 +67,13 @@ a:visited
     color: #333
 
   p.nav
+    +ofl-font(21px)
     margin-top: 25px
     text-align: center
-    color: $gray
-    font-weight: 200
+    color: #000
+    font-weight: 300
     a
-      font-weight: 300
       margin: 0 10px
-
 
 .footer
   width: $width
@@ -85,7 +87,11 @@ a:visited
   color: #aaa
   text-align: center
   letter-spacing: 3px
+  margin: 15px 0
   a
     color: $red
-    letter-spacing: 1px
+    letter-spacing: normal
     font-size: 13px
+
+.dsq-brlink
+  font-size: 14px

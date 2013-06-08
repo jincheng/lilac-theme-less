@@ -3,7 +3,7 @@
 $red: #CC0033
 $gray: #777
 
-$width: 740px  /* this is the width of container */
+$width: 650px  /* this is the width of container */
 
 =border-radius($r: 4px)
   -webkit-border-radius: $r
@@ -12,8 +12,10 @@ $width: 740px  /* this is the width of container */
   -o-border-radius: $r
   border-radius: $r
 
-=bigtitle
-  text-align: center
-  font-size: 35px
-  line-height: 52px
+=ofl-font($font-size:17px)
+  font: $font-size 'OFL Sorts Mill Goudy', 'OFL Sorts Mill Goudy TT', serif
   font-weight: 200
+
+=bigtitle
+  +ofl-font(32px)
+  text-align: center
