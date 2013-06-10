@@ -10,8 +10,8 @@ Demo
 
 http://lilac-less.hit9.org
 
-Install
--------
+Installation
+-------------
 
 ```
 cd /path/to/your/blog
@@ -25,6 +25,19 @@ cd /path/to/your/blog
 git submodule add git://github.com/hit9/lilac-theme-less.git less
 ```
 
-Then, you need set `theme` to `"less"` in config.toml.
+Configuration
+-------------
 
-Run `make serve`, see new theme in broswer.
+You need set `theme` to `"less"` in config.toml:
+
+```
+[blog]
+theme = "less"
+```
+
+`less` needs your github's username:
+
+```
+[theme.vars]
+github = "your-github-username"
+```
