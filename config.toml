@@ -33,3 +33,6 @@ email = "nz2324@126.com"  # your email address
 [disqus]
 # your disqus's short name for this blog
 shortname = "followmyheart"
+
+[theme.vars]
+github = "hit9"
