@@ -13,12 +13,14 @@
     <div class="header">
       <h1><a href="{{root_path}}/">{{ blog.name }}</a></h1> {# blog's Name #}
       <h2>{{ blog.description }}</h2>
-      <p class="nav">  {# navigation #}~  ~  ~  ~  ~
+      <p class="nav separator">  {# navigation #}
+      <span>
         <a href="{{root_path}}/">Home</a> ~
         <a href="{{root_path}}/tags.html">Tags</a> ~
         <a href="{{root_path}}/archives.html">Archives</a> ~
         <a href="{{root_path}}/about.html">About</a> ~
-        <a href="{{root_path}}/feed.atom">Rss</a>  ~  ~  ~  ~  ~ 
+        <a href="{{root_path}}/feed.atom">Rss</a>
+      </span>
       </p>
     </div>
     <p class="flourish"><img src="{{root_path}}/{{blog.theme}}/static/images/flourish.svg" height="60px" alt=""></p>
