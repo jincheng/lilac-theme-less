@@ -8,7 +8,7 @@ less is more, we like minimalist blog design.
 Demo
 ----
 
-http://lilac-less.hit9.org
+http://lilac.hit9.org
 
 Installation
 -------------
